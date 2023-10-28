@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x
 
+sudo npm install --global yarn
+
 function creat_graphql_builder () {
     mkdir -p ${app_folder}/packages
     cd cardano-graphql/
